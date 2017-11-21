@@ -3,7 +3,7 @@
 import csv
 import random
 
-numberOfRows = 1000
+numberOfRows = 100
 sampleSize = {'low': 500, 'heigh': 1500}
 
 with open('test_data.csv', 'w') as csvfile:
