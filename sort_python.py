@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 from datetime import datetime
+import csv
 
 def shortBubbleSort(alist):
     start = datetime.now()
@@ -20,7 +21,7 @@ def shortBubbleSort(alist):
     return ms
 
 totalTime = 0
-import csv
+
 with open('test_data.csv', 'r') as csvfile:
     reader = csv.reader(csvfile)
     lines = 0
