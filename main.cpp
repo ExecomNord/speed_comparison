@@ -28,7 +28,7 @@ double shortBubbleSort(vector<int> alist)
         passnum--;
     }
     auto end = chrono::duration_cast<std::chrono::microseconds>(chrono::system_clock::now().time_since_epoch()).count();
-    return (end - start) / 10000000.0;
+    return (end - start) / (1000.0 * 1000.0);
 }
 
 int main()
